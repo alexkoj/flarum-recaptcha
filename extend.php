@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace FoF\ReCaptcha;
+namespace Alexkoj\ReCaptcha;
 
 use Flarum\Api\ForgotPasswordValidator;
 use Flarum\Api\Serializer\ForumSerializer;
@@ -18,8 +18,8 @@ use Flarum\Extend;
 use Flarum\Forum\LogInValidator;
 use Flarum\Post\Event\Saving as PostSaving;
 use Flarum\User\Event\Saving as UserSaving;
-use FoF\ReCaptcha\Listeners\AddValidatorRule;
-use FoF\ReCaptcha\Validators\RecaptchaValidator;
+use Alexkoj\ReCaptcha\Listeners\AddValidatorRule;
+use Alexkoj\ReCaptcha\Validators\RecaptchaValidator;
 
 return [
     (new Extend\Frontend('forum'))

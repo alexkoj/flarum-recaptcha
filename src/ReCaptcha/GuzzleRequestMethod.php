@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace FoF\ReCaptcha\ReCaptcha;
+namespace Alexkoj\ReCaptcha\ReCaptcha;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\BadResponseException;

@@ -1,5 +1,6 @@
 {
-    "name": "fof/recaptcha",
+    "name": "alexkoj/flarum-recaptcha",
+    "version": "1.8.5",
     "description": "Increase your forum's security with Google reCAPTCHA",
     "keywords": [
         "flarum"
@@ -7,8 +8,8 @@
     "type": "flarum-extension",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/FriendsOfFlarum/recaptcha/issues",
-        "source": "https://github.com/FriendsOfFlarum/recaptcha",
+        "issues": "https://github.com/alexkoj/flarum-recaptcha/issues",
+        "source": "https://github.com/alexkoj/flarum-recaptcha",
         "forum": "https://discuss.flarum.org/d/18399"
     },
     "homepage": "https://friendsofflarum.org/",
@@ -24,13 +25,8 @@
     },
     "authors": [
         {
-            "name": "Sajjad Hashemian",
-            "email": "wolaws@gmail.com"
-        },
-        {
-            "name": "David Sevilla Martín",
-            "email": "david.s@redevs.org",
-            "role": "Developer"
+            "name": "Alex Koj",
+            "email": "alexkoj@getl.cc"
         }
     ],
     "replace": {
@@ -38,12 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "FoF\\ReCaptcha\\": "src/"
+            "Alexkoj\\ReCaptcha\\": "src/"
         }
     },
     "extra": {
         "flarum-extension": {
-            "title": "FoF reCAPTCHA",
+            "title": "Alexkokj reCAPTCHA",
             "category": "feature",
             "icon": {
                 "name": "fas fa-robot",
@@ -51,7 +47,7 @@
                 "color": "#fff"
             },
             "optional-dependencies": [
-                "fof/oauth"
+                "alexkoj/flarum-oauth"
             ]
         },
         "flagrow": {

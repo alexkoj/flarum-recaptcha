@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace FoF\ReCaptcha\Listeners;
+namespace Alexkoj\ReCaptcha\Listeners;
 
 use Flarum\Settings\SettingsRepositoryInterface;
 use Flarum\User\Event\Saving;
-use FoF\ReCaptcha\Utils;
-use FoF\ReCaptcha\Validators\RecaptchaValidator;
+use Alexkoj\ReCaptcha\Utils;
+use Alexkoj\ReCaptcha\Validators\RecaptchaValidator;
 use Illuminate\Support\Arr;
 
 class RegisterValidate

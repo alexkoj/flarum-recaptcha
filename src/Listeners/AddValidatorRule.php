@@ -9,14 +9,14 @@
  * file that was distributed with this source code.
  */
 
-namespace FoF\ReCaptcha\Listeners;
+namespace Alexkoj\ReCaptcha\Listeners;
 
 use Flarum\Api\ForgotPasswordValidator;
 use Flarum\Forum\LogInValidator;
 use Flarum\Foundation\AbstractValidator;
 use Flarum\Settings\SettingsRepositoryInterface;
-use FoF\ReCaptcha\ReCaptcha\GuzzleRequestMethod;
-use FoF\ReCaptcha\Utils;
+use Alexkoj\ReCaptcha\ReCaptcha\GuzzleRequestMethod;
+use Alexkoj\ReCaptcha\Utils;
 use Illuminate\Validation\Validator;
 use ReCaptcha\ReCaptcha;
 

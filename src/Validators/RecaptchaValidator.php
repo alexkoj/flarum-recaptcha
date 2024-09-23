@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace FoF\ReCaptcha\Validators;
+namespace Alexkoj\ReCaptcha\Validators;
 
 use Flarum\Foundation\AbstractValidator;
 

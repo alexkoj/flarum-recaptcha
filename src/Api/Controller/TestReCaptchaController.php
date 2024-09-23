@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace FoF\ReCaptcha\Api\Controller;
+namespace Alexkoj\ReCaptcha\Api\Controller;
 
 use Flarum\Http\RequestUtil;
-use FoF\ReCaptcha\Validators\RecaptchaValidator;
+use Alexkoj\ReCaptcha\Validators\RecaptchaValidator;
 use Illuminate\Support\Arr;
 use Laminas\Diactoros\Response\EmptyResponse;
 use Psr\Http\Message\ResponseInterface;
